@@ -1,6 +1,6 @@
 # Optimized TensorFlow Wheels
 
-If you similar messages when you start TensorFlow then these wheels are for you!
+If you see similar messages when you start TensorFlow then these wheels are for you!
 
 ```
 The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
