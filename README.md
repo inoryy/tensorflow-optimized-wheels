@@ -11,7 +11,7 @@ The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are
 ## Available wheels
 |TF|Arch|Python|CUDA|CuDNN|NCCL|Link|
 |---|---|---|---|---|---|---|
-|1.10|GPU+CPU|3.6|9.2|7.2|2.2|[https://github.com/inoryy/tensorflow-optimized-wheels/releases/tag/v1.10.0](https://github.com/inoryy/tensorflow-optimized-wheels/releases/tag/v1.10.0)|
+|1.10|GPU+CPU|3.6|9.2|7.2|2.2|[https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.10.0/tensorflow-1.10.0-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.10.0/tensorflow-1.10.0-cp36-cp36m-linux_x86_64.whl)|
 
 ## Installation
 
