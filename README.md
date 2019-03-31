@@ -19,7 +19,7 @@ Additionally, build enables [XLA](https://www.tensorflow.org/xla/) - an Accelera
 |TensorFlow|CUDA|CuDNN|TensorRT|Python|NCCL|Compute Capability|OS|Link|
 |---:|---:|---:|---:|---:|---:|---:|:---:|:---:|
 |2.0.0a0|10.0|7.5|5.0|3.7|2.4|5.0, 6.1, 7.0|Linux|[tensorflow-2.0.0a0-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.0.0a0/tensorflow-2.0.0a0-cp37-cp37m-linux_x86_64.whl)|
-|1.13.1|10.0|7.3|N/A|3.7|2.3|5.0, 6.1, 7.0|Linux|[tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.13.1-py37/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
+|1.13.1|10.0|7.5|5.0|3.7|2.4|5.0, 6.1, 7.0|Linux|[tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.13.1-py37/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
 |1.13.1|10.0|7.3|N/A|3.6|2.3|5.0, 6.1, 7.0|Linux|[tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.13.1/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
 |1.12.0|10.0|7.3|N/A|3.6|2.3|5.0, 6.1, 7.0|Linux|[tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.12.0/tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl)|
 |1.11.0|10.0|7.3|N/A|3.6|2.3|6.1|Linux|[tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.11.0/tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl)|
