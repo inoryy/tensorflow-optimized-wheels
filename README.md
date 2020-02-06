@@ -16,12 +16,13 @@ If you have a CPU released after ~2013 then you'll likely benefit from these on 
 
 Build also enables [XLA](https://www.tensorflow.org/xla/) - an Accelerated Linear Algebra domain-specific just-in-time compiler.
 
-Finally, additional compute capabilities support (5.0, 6.1, 7.0) is enabled, which means these wheels should also work on older GPUs (7xx - 9xx families).
+Finally, additional compute capabilities (5.0, 6.1, 7.0, 7.5) are enabled, which means these wheels should work well on a wide range of GPUS: from `GTX 7xx` to `RTX 20xx` families.
 
 ## Available Wheels
 |TensorFlow|Python|CUDA|CuDNN|TensorRT|NCCL|Compute Capability|OS|Link|
 |---:|---:|---:|---:|---:|---:|---:|:---:|:---:|
 |2.1.0|3.8|10.2|7.6|N/A|2.5|5.0,6.1,7.0|Linux|[tensorflow-2.1.0-cp38-cp38-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.1.0/tensorflow-2.1.0-cp38-cp38-linux_x86_64.whl)|
+|2.1.0|3.7|10.2|7.6|7.0|2.5|5.0,6.1,7.0,7.5|Linux|[tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.1.0/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
 |2.0.0|3.8|10.2|7.6|N/A|2.5|5.0,6.1,7.0|Linux|[tensorflow-2.0.0-cp38-cp38-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.0.0-py3.8/tensorflow-2.0.0-cp38-cp38-linux_x86_64.whl)|
 |2.0.0|3.7|10.1|7.5|N/A|2.4|5.0,6.1,7.0|Linux|[tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.0.0/tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl)|
 |1.13.1|3.7|10.0|7.5|5.0|2.4|5.0,6.1,7.0|Linux|[tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.13.1-py37/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
