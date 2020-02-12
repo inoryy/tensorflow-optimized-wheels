@@ -26,12 +26,6 @@ Additional compute capabilities (5.0, 6.1, 7.0, 7.5) are enabled, meaning the wh
 |2.1.0|3.7|10.2|7.6|7.0|2.5|5.0,6.1,7.0,7.5|Linux|[tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.1.0/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
 |2.0.0|3.8|10.2|7.6|N/A|2.5|5.0,6.1,7.0|Linux|[tensorflow-2.0.0-cp38-cp38-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.0.0-py3.8/tensorflow-2.0.0-cp38-cp38-linux_x86_64.whl)|
 |2.0.0|3.7|10.1|7.5|N/A|2.4|5.0,6.1,7.0|Linux|[tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v2.0.0/tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl)|
-|1.13.1|3.7|10.0|7.5|5.0|2.4|5.0,6.1,7.0|Linux|[tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.13.1-py37/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
-|1.13.1|3.6|10.0|7.3|N/A|2.3|5.0,6.1,7.0|Linux|[tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.13.1/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
-|1.12.0|3.6|10.0|7.3|N/A|2.3|5.0,6.1,7.0|Linux|[tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.12.0/tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl)|
-|1.11.0|3.6|10.0|7.3|N/A|2.3|6.1|Linux|[tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.11.0/tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl)|
-|1.10.0|3.6|9.2|7.2|N/A|2.2|6.1|Linux|[tensorflow-1.10.0-cp36-cp36m-linux_x86_64.whl](https://github.com/inoryy/tensorflow-optimized-wheels/releases/download/v1.10.0/tensorflow-1.10.0-cp36-cp36m-linux_x86_64.whl)|
-
 
 ## Installation
 
@@ -59,6 +53,15 @@ I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully ope
 I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (...) -> physical GPU (...)
 <tf.Tensor: shape=(1,), dtype=int32, numpy=array([444], dtype=int32)>
 ```
+
+## Benchmark
+
+The wheels are benchmarked by training an MNIST model from [TF Models](https://github.com/tensorflow/models) on a CPU. Results for TF 2.1 are as follows:
+
+| Build / Time Per Epoch |Mean|Min|Max|
+|---:|---:|---:|---:|
+| Official  | 16.7s | 16s | 19s |
+| Optimized | 14.3s | 12s | 17s |
 
 ## Requests
 
